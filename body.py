@@ -1,11 +1,12 @@
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
 template = """if (x-+ == 0) {
-    x-+ = CPROVER_nondet_ushortint();
-    __CPROVER_assume(value_allowed(x-+), "x-+ value is correct");
-    __CPROVER_assume(row_value_allowed(-, x-+), "row value allowed");
-    __CPROVER_assume(col_value_allowed(+, x-+), "col value allowed");
-    __CPROVER_assume(square_value_allowed(*, x-+), "square value allowed");
+    value = CPROVER_nondet_ushortint();
+    __CPROVER_assume(value_allowed(value));
+    __CPROVER_assume(row_value_allowed(-, value));
+    __CPROVER_assume(col_value_allowed(+, value));
+    __CPROVER_assume(square_value_allowed(*, value));
+    x-+ = value;
 }"""
 
 for i in range(1,10):

@@ -1,0 +1,857 @@
+CBMC version 5.11 (cbmc-5.11) 64-bit x86_64 linux
+Parsing sudoku-sat.c
+Converting
+Type-checking sudoku-sat
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop main.0 iteration 1 file sudoku-sat.c line 397 function main thread 0
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop main.0 iteration 2 file sudoku-sat.c line 397 function main thread 0
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop main.0 iteration 3 file sudoku-sat.c line 397 function main thread 0
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop main.0 iteration 4 file sudoku-sat.c line 397 function main thread 0
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop main.0 iteration 5 file sudoku-sat.c line 397 function main thread 0
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop main.0 iteration 6 file sudoku-sat.c line 397 function main thread 0
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop main.0 iteration 7 file sudoku-sat.c line 397 function main thread 0
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop main.0 iteration 8 file sudoku-sat.c line 397 function main thread 0
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop main.0 iteration 9 file sudoku-sat.c line 397 function main thread 0
+Unwinding loop cols_win.0 iteration 1 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 2 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 3 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 4 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 5 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 6 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 7 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 8 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop cols_win.0 iteration 9 file sudoku-sat.c line 314 function cols_win thread 0
+Unwinding loop rows_win.0 iteration 1 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 2 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 3 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 4 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 5 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 6 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 7 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 8 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop rows_win.0 iteration 9 file sudoku-sat.c line 281 function rows_win thread 0
+Unwinding loop squares_win.0 iteration 1 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 2 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 3 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 4 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 5 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 6 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 7 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 8 file sudoku-sat.c line 347 function squares_win thread 0
+Unwinding loop squares_win.0 iteration 9 file sudoku-sat.c line 347 function squares_win thread 0
+Not unwinding loop main.0 iteration 10 file sudoku-sat.c line 397 function main thread 0
+size of program expression: 23988 steps
+simple slicing removed 7 assignments
+Generated 10 VCC(s), 10 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+269623 variables, 654510 clauses
+SAT checker: instance is SATISFIABLE
+Runtime decision procedure: 2.38924s
+
+** Results:
+sudoku-sat.c function main
+[main.assertion.1] line 724 Sudoku solved: FAILURE
+
+Trace for main.assertion.1:
+
+State 104 file sudoku-sat.c function main line 408 thread 0
+----------------------------------------------------
+  x13=4 (00000000 00000000 00000000 00000100)
+
+State 108 file sudoku-sat.c function main line 409 thread 0
+----------------------------------------------------
+  value=4 (00000000 00000000 00000000 00000100)
+
+State 116 file sudoku-sat.c function main line 412 thread 0
+----------------------------------------------------
+  x14=6 (00000000 00000000 00000000 00000110)
+
+State 120 file sudoku-sat.c function main line 413 thread 0
+----------------------------------------------------
+  value=6 (00000000 00000000 00000000 00000110)
+
+State 129 file sudoku-sat.c function main line 420 thread 0
+----------------------------------------------------
+  x16=8 (00000000 00000000 00000000 00001000)
+
+State 133 file sudoku-sat.c function main line 421 thread 0
+----------------------------------------------------
+  value=8 (00000000 00000000 00000000 00001000)
+
+State 141 file sudoku-sat.c function main line 424 thread 0
+----------------------------------------------------
+  x17=9 (00000000 00000000 00000000 00001001)
+
+State 145 file sudoku-sat.c function main line 425 thread 0
+----------------------------------------------------
+  value=9 (00000000 00000000 00000000 00001001)
+
+State 153 file sudoku-sat.c function main line 428 thread 0
+----------------------------------------------------
+  x18=1 (00000000 00000000 00000000 00000001)
+
+State 157 file sudoku-sat.c function main line 429 thread 0
+----------------------------------------------------
+  value=1 (00000000 00000000 00000000 00000001)
+
+State 165 file sudoku-sat.c function main line 432 thread 0
+----------------------------------------------------
+  x19=2 (00000000 00000000 00000000 00000010)
+
+State 169 file sudoku-sat.c function main line 433 thread 0
+----------------------------------------------------
+  value=2 (00000000 00000000 00000000 00000010)
+
+State 178 file sudoku-sat.c function main line 440 thread 0
+----------------------------------------------------
+  x22=7 (00000000 00000000 00000000 00000111)
+
+State 182 file sudoku-sat.c function main line 441 thread 0
+----------------------------------------------------
+  value=7 (00000000 00000000 00000000 00000111)
+
+State 190 file sudoku-sat.c function main line 444 thread 0
+----------------------------------------------------
+  x23=2 (00000000 00000000 00000000 00000010)
+
+State 194 file sudoku-sat.c function main line 445 thread 0
+----------------------------------------------------
+  value=2 (00000000 00000000 00000000 00000010)
+
+State 205 file sudoku-sat.c function main line 460 thread 0
+----------------------------------------------------
+  x27=3 (00000000 00000000 00000000 00000011)
+
+State 209 file sudoku-sat.c function main line 461 thread 0
+----------------------------------------------------
+  value=3 (00000000 00000000 00000000 00000011)
+
+State 217 file sudoku-sat.c function main line 464 thread 0
+----------------------------------------------------
+  x28=4 (00000000 00000000 00000000 00000100)
+
+State 221 file sudoku-sat.c function main line 465 thread 0
+----------------------------------------------------
+  value=4 (00000000 00000000 00000000 00000100)
+
+State 229 file sudoku-sat.c function main line 468 thread 0
+----------------------------------------------------
+  x29=8 (00000000 00000000 00000000 00001000)
+
+State 233 file sudoku-sat.c function main line 469 thread 0
+----------------------------------------------------
+  value=8 (00000000 00000000 00000000 00001000)
+
+State 241 file sudoku-sat.c function main line 472 thread 0
+----------------------------------------------------
+  x31=1 (00000000 00000000 00000000 00000001)
+
+State 245 file sudoku-sat.c function main line 473 thread 0
+----------------------------------------------------
+  value=1 (00000000 00000000 00000000 00000001)
+
+State 255 file sudoku-sat.c function main line 484 thread 0
+----------------------------------------------------
+  x34=3 (00000000 00000000 00000000 00000011)
+
+State 259 file sudoku-sat.c function main line 485 thread 0
+----------------------------------------------------
+  value=3 (00000000 00000000 00000000 00000011)
+
+State 267 file sudoku-sat.c function main line 488 thread 0
+----------------------------------------------------
+  x35=4 (00000000 00000000 00000000 00000100)
+
+State 271 file sudoku-sat.c function main line 489 thread 0
+----------------------------------------------------
+  value=4 (00000000 00000000 00000000 00000100)
+
+State 279 file sudoku-sat.c function main line 492 thread 0
+----------------------------------------------------
+  x36=2 (00000000 00000000 00000000 00000010)
+
+State 283 file sudoku-sat.c function main line 493 thread 0
+----------------------------------------------------
+  value=2 (00000000 00000000 00000000 00000010)
+
+State 291 file sudoku-sat.c function main line 496 thread 0
+----------------------------------------------------
+  x37=5 (00000000 00000000 00000000 00000101)
+
+State 295 file sudoku-sat.c function main line 497 thread 0
+----------------------------------------------------
+  value=5 (00000000 00000000 00000000 00000101)
+
+State 304 file sudoku-sat.c function main line 504 thread 0
+----------------------------------------------------
+  x39=7 (00000000 00000000 00000000 00000111)
+
+State 308 file sudoku-sat.c function main line 505 thread 0
+----------------------------------------------------
+  value=7 (00000000 00000000 00000000 00000111)
+
+State 317 file sudoku-sat.c function main line 512 thread 0
+----------------------------------------------------
+  x42=5 (00000000 00000000 00000000 00000101)
+
+State 321 file sudoku-sat.c function main line 513 thread 0
+----------------------------------------------------
+  value=5 (00000000 00000000 00000000 00000101)
+
+State 329 file sudoku-sat.c function main line 516 thread 0
+----------------------------------------------------
+  x43=9 (00000000 00000000 00000000 00001001)
+
+State 333 file sudoku-sat.c function main line 517 thread 0
+----------------------------------------------------
+  value=9 (00000000 00000000 00000000 00001001)
+
+State 341 file sudoku-sat.c function main line 520 thread 0
+----------------------------------------------------
+  x44=7 (00000000 00000000 00000000 00000111)
+
+State 345 file sudoku-sat.c function main line 521 thread 0
+----------------------------------------------------
+  value=7 (00000000 00000000 00000000 00000111)
+
+State 354 file sudoku-sat.c function main line 528 thread 0
+----------------------------------------------------
+  x46=1 (00000000 00000000 00000000 00000001)
+
+State 358 file sudoku-sat.c function main line 529 thread 0
+----------------------------------------------------
+  value=1 (00000000 00000000 00000000 00000001)
+
+State 366 file sudoku-sat.c function main line 532 thread 0
+----------------------------------------------------
+  x47=4 (00000000 00000000 00000000 00000100)
+
+State 370 file sudoku-sat.c function main line 533 thread 0
+----------------------------------------------------
+  value=4 (00000000 00000000 00000000 00000100)
+
+State 378 file sudoku-sat.c function main line 536 thread 0
+----------------------------------------------------
+  x48=2 (00000000 00000000 00000000 00000010)
+
+State 382 file sudoku-sat.c function main line 537 thread 0
+----------------------------------------------------
+  value=2 (00000000 00000000 00000000 00000010)
+
+State 392 file sudoku-sat.c function main line 548 thread 0
+----------------------------------------------------
+  x52=2 (00000000 00000000 00000000 00000010)
+
+State 396 file sudoku-sat.c function main line 549 thread 0
+----------------------------------------------------
+  value=2 (00000000 00000000 00000000 00000010)
+
+State 404 file sudoku-sat.c function main line 552 thread 0
+----------------------------------------------------
+  x53=6 (00000000 00000000 00000000 00000110)
+
+State 408 file sudoku-sat.c function main line 553 thread 0
+----------------------------------------------------
+  value=6 (00000000 00000000 00000000 00000110)
+
+State 417 file sudoku-sat.c function main line 560 thread 0
+----------------------------------------------------
+  x55=5 (00000000 00000000 00000000 00000101)
+
+State 421 file sudoku-sat.c function main line 561 thread 0
+----------------------------------------------------
+  value=5 (00000000 00000000 00000000 00000101)
+
+State 430 file sudoku-sat.c function main line 568 thread 0
+----------------------------------------------------
+  x57=7 (00000000 00000000 00000000 00000111)
+
+State 434 file sudoku-sat.c function main line 569 thread 0
+----------------------------------------------------
+  value=7 (00000000 00000000 00000000 00000111)
+
+State 442 file sudoku-sat.c function main line 572 thread 0
+----------------------------------------------------
+  x58=9 (00000000 00000000 00000000 00001001)
+
+State 446 file sudoku-sat.c function main line 573 thread 0
+----------------------------------------------------
+  value=9 (00000000 00000000 00000000 00001001)
+
+State 456 file sudoku-sat.c function main line 584 thread 0
+----------------------------------------------------
+  x62=1 (00000000 00000000 00000000 00000001)
+
+State 460 file sudoku-sat.c function main line 585 thread 0
+----------------------------------------------------
+  value=1 (00000000 00000000 00000000 00000001)
+
+State 468 file sudoku-sat.c function main line 588 thread 0
+----------------------------------------------------
+  x63=3 (00000000 00000000 00000000 00000011)
+
+State 472 file sudoku-sat.c function main line 589 thread 0
+----------------------------------------------------
+  value=3 (00000000 00000000 00000000 00000011)
+
+State 480 file sudoku-sat.c function main line 592 thread 0
+----------------------------------------------------
+  x64=9 (00000000 00000000 00000000 00001001)
+
+State 484 file sudoku-sat.c function main line 593 thread 0
+----------------------------------------------------
+  value=9 (00000000 00000000 00000000 00001001)
+
+State 493 file sudoku-sat.c function main line 600 thread 0
+----------------------------------------------------
+  x66=4 (00000000 00000000 00000000 00000100)
+
+State 497 file sudoku-sat.c function main line 601 thread 0
+----------------------------------------------------
+  value=4 (00000000 00000000 00000000 00000100)
+
+State 505 file sudoku-sat.c function main line 604 thread 0
+----------------------------------------------------
+  x67=8 (00000000 00000000 00000000 00001000)
+
+State 509 file sudoku-sat.c function main line 605 thread 0
+----------------------------------------------------
+  value=8 (00000000 00000000 00000000 00001000)
+
+State 517 file sudoku-sat.c function main line 608 thread 0
+----------------------------------------------------
+  x68=5 (00000000 00000000 00000000 00000101)
+
+State 521 file sudoku-sat.c function main line 609 thread 0
+----------------------------------------------------
+  value=5 (00000000 00000000 00000000 00000101)
+
+State 530 file sudoku-sat.c function main line 616 thread 0
+----------------------------------------------------
+  x71=9 (00000000 00000000 00000000 00001001)
+
+State 534 file sudoku-sat.c function main line 617 thread 0
+----------------------------------------------------
+  value=9 (00000000 00000000 00000000 00001001)
+
+State 543 file sudoku-sat.c function main line 624 thread 0
+----------------------------------------------------
+  x73=1 (00000000 00000000 00000000 00000001)
+
+State 547 file sudoku-sat.c function main line 625 thread 0
+----------------------------------------------------
+  value=1 (00000000 00000000 00000000 00000001)
+
+State 555 file sudoku-sat.c function main line 628 thread 0
+----------------------------------------------------
+  x74=5 (00000000 00000000 00000000 00000101)
+
+State 559 file sudoku-sat.c function main line 629 thread 0
+----------------------------------------------------
+  value=5 (00000000 00000000 00000000 00000101)
+
+State 567 file sudoku-sat.c function main line 632 thread 0
+----------------------------------------------------
+  x75=3 (00000000 00000000 00000000 00000011)
+
+State 571 file sudoku-sat.c function main line 633 thread 0
+----------------------------------------------------
+  value=3 (00000000 00000000 00000000 00000011)
+
+State 579 file sudoku-sat.c function main line 636 thread 0
+----------------------------------------------------
+  x76=7 (00000000 00000000 00000000 00000111)
+
+State 583 file sudoku-sat.c function main line 637 thread 0
+----------------------------------------------------
+  value=7 (00000000 00000000 00000000 00000111)
+
+State 593 file sudoku-sat.c function main line 648 thread 0
+----------------------------------------------------
+  x79=4 (00000000 00000000 00000000 00000100)
+
+State 597 file sudoku-sat.c function main line 649 thread 0
+----------------------------------------------------
+  value=4 (00000000 00000000 00000000 00000100)
+
+State 605 file sudoku-sat.c function main line 652 thread 0
+----------------------------------------------------
+  x81=2 (00000000 00000000 00000000 00000010)
+
+State 609 file sudoku-sat.c function main line 653 thread 0
+----------------------------------------------------
+  value=2 (00000000 00000000 00000000 00000010)
+
+State 617 file sudoku-sat.c function main line 656 thread 0
+----------------------------------------------------
+  x82=8 (00000000 00000000 00000000 00001000)
+
+State 621 file sudoku-sat.c function main line 657 thread 0
+----------------------------------------------------
+  value=8 (00000000 00000000 00000000 00001000)
+
+State 629 file sudoku-sat.c function main line 660 thread 0
+----------------------------------------------------
+  x83=7 (00000000 00000000 00000000 00000111)
+
+State 633 file sudoku-sat.c function main line 661 thread 0
+----------------------------------------------------
+  value=7 (00000000 00000000 00000000 00000111)
+
+State 644 file sudoku-sat.c function main line 676 thread 0
+----------------------------------------------------
+  x87=6 (00000000 00000000 00000000 00000110)
+
+State 648 file sudoku-sat.c function main line 677 thread 0
+----------------------------------------------------
+  value=6 (00000000 00000000 00000000 00000110)
+
+State 656 file sudoku-sat.c function main line 680 thread 0
+----------------------------------------------------
+  x88=3 (00000000 00000000 00000000 00000011)
+
+State 660 file sudoku-sat.c function main line 681 thread 0
+----------------------------------------------------
+  value=3 (00000000 00000000 00000000 00000011)
+
+State 669 file sudoku-sat.c function main line 688 thread 0
+----------------------------------------------------
+  x91=3 (00000000 00000000 00000000 00000011)
+
+State 673 file sudoku-sat.c function main line 689 thread 0
+----------------------------------------------------
+  value=3 (00000000 00000000 00000000 00000011)
+
+State 681 file sudoku-sat.c function main line 692 thread 0
+----------------------------------------------------
+  x92=4 (00000000 00000000 00000000 00000100)
+
+State 685 file sudoku-sat.c function main line 693 thread 0
+----------------------------------------------------
+  value=4 (00000000 00000000 00000000 00000100)
+
+State 693 file sudoku-sat.c function main line 696 thread 0
+----------------------------------------------------
+  x93=5 (00000000 00000000 00000000 00000101)
+
+State 697 file sudoku-sat.c function main line 697 thread 0
+----------------------------------------------------
+  value=5 (00000000 00000000 00000000 00000101)
+
+State 705 file sudoku-sat.c function main line 700 thread 0
+----------------------------------------------------
+  x94=2 (00000000 00000000 00000000 00000010)
+
+State 709 file sudoku-sat.c function main line 701 thread 0
+----------------------------------------------------
+  value=2 (00000000 00000000 00000000 00000010)
+
+State 718 file sudoku-sat.c function main line 708 thread 0
+----------------------------------------------------
+  x96=6 (00000000 00000000 00000000 00000110)
+
+State 722 file sudoku-sat.c function main line 709 thread 0
+----------------------------------------------------
+  value=6 (00000000 00000000 00000000 00000110)
+
+State 730 file sudoku-sat.c function main line 712 thread 0
+----------------------------------------------------
+  x97=1 (00000000 00000000 00000000 00000001)
+
+State 734 file sudoku-sat.c function main line 713 thread 0
+----------------------------------------------------
+  value=1 (00000000 00000000 00000000 00000001)
+
+State 747 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=0 (00000000 00000000 00000000 00000000)
+
+State 748 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=1 (00000000 00000000 00000000 00000001)
+
+State 759 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=2 (00000000 00000000 00000000 00000010)
+
+State 771 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=3 (00000000 00000000 00000000 00000011)
+
+State 783 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=4 (00000000 00000000 00000000 00000100)
+
+State 795 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=5 (00000000 00000000 00000000 00000101)
+
+State 807 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=6 (00000000 00000000 00000000 00000110)
+
+State 819 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=7 (00000000 00000000 00000000 00000111)
+
+State 831 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=8 (00000000 00000000 00000000 00001000)
+
+State 843 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=9 (00000000 00000000 00000000 00001001)
+
+State 855 file sudoku-sat.c function cols_win line 314 thread 0
+----------------------------------------------------
+  s=10 (00000000 00000000 00000000 00001010)
+
+State 866 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=0 (00000000 00000000 00000000 00000000)
+
+State 867 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=1 (00000000 00000000 00000000 00000001)
+
+State 878 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=2 (00000000 00000000 00000000 00000010)
+
+State 890 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=3 (00000000 00000000 00000000 00000011)
+
+State 902 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=4 (00000000 00000000 00000000 00000100)
+
+State 914 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=5 (00000000 00000000 00000000 00000101)
+
+State 926 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=6 (00000000 00000000 00000000 00000110)
+
+State 938 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=7 (00000000 00000000 00000000 00000111)
+
+State 950 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=8 (00000000 00000000 00000000 00001000)
+
+State 962 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=9 (00000000 00000000 00000000 00001001)
+
+State 974 file sudoku-sat.c function rows_win line 281 thread 0
+----------------------------------------------------
+  s=10 (00000000 00000000 00000000 00001010)
+
+State 987 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=0 (00000000 00000000 00000000 00000000)
+
+State 988 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=1 (00000000 00000000 00000000 00000001)
+
+State 999 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=2 (00000000 00000000 00000000 00000010)
+
+State 1011 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=3 (00000000 00000000 00000000 00000011)
+
+State 1023 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=4 (00000000 00000000 00000000 00000100)
+
+State 1035 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=5 (00000000 00000000 00000000 00000101)
+
+State 1047 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=6 (00000000 00000000 00000000 00000110)
+
+State 1059 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=7 (00000000 00000000 00000000 00000111)
+
+State 1071 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=8 (00000000 00000000 00000000 00001000)
+
+State 1083 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=9 (00000000 00000000 00000000 00001001)
+
+State 1095 file sudoku-sat.c function squares_win line 347 thread 0
+----------------------------------------------------
+  s=10 (00000000 00000000 00000000 00001010)
+
+Violated property:
+  file sudoku-sat.c function main line 724 thread 0
+  Sudoku solved
+  !(return_value_solved != 0)
+
+
+
+** 1 of 1 failed (1 iteration)
+VERIFICATION FAILED
